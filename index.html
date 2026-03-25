@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YazixX | Modern Web Experiences</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description"
+        content="Portfolio of Yahya Ben Khalifa. I build modern, responsive, and stunning web experiences.">
+    <meta name="theme-color" content="#09090b">
+
+    <!-- Modern Typography (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons (Phosphor Icons - Modern aesthetic) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- App Layout Container -->
+    <div class="app-container">
+        <!-- Ambient Background Glows -->
+        <div class="ambient-glows">
+            <div class="glow glow-purple"></div>
+            <div class="glow glow-blue"></div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">YazixX</a>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary-outline">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="hero" id="home">
+                <div class="hero-content reveal-on-load">
+                    <div class="badge">Premium freelance services</div>
+                    <h1 class="hero-title">
+                        I build <span class="text-gradient">high-end</span><br>
+                        SaaS experiences.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Hi, I'm Yahya. I design and engineer premium, client-converting web applications that elevate
+                        your brand and drive tangible business growth.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Portfolio</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Talk <i
+                                class="ph-bold ph-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- 3D Interactive Logo -->
+                <div class="hero-visual reveal-on-load delay-1">
+                    <div class="logo-3d-container" id="logo-3d-target">
+                        <div class="logo-3d-card">
+                            <img src="assets/logo.png" alt="YazixX Logo" class="logo-image-3d">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about section-padding" id="about">
+                <div class="section-header reveal">
+                    <h2 class="section-title">What I <span class="text-gradient">Bring</span></h2>
+                    <p class="section-desc">The skills and mindset that make your product stand out</p>
+                </div>
+
+                <div class="about-grid reveal delay-1">
+                    <div class="glass-card about-card about-highlight">
+                        <div class="card-icon"><i class="ph-fill ph-rocket-launch"></i></div>
+                        <h3>Conversion Focused</h3>
+                        <p>I build platforms designed to convert. From clear visual hierarchy to intuitive user flows,
+                            every element serves a strategic business purpose.</p>
+                    </div>
+                    <div class="glass-card about-card">
+                        <div class="card-icon"><i class="ph-fill ph-code"></i></div>
+                        <h3>Front-End Engineering</h3>
+                        <p>Delivering buttery-smooth interactions, flawless responsive layouts, and highly optimized
+                            code for maximum performance.</p>
+                    </div>
+                    <div class="glass-card about-card">
+                        <div class="card-icon"><i class="ph-fill ph-sparkle"></i></div>
+                        <h3>SaaS Premium Aesthetics</h3>
+                        <p>I blend robust logical structure with top-tier aesthetic design to create products that look
+                            extremely premium and build user trust.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills section-padding" id="skills">
+                <div class="section-header reveal">
+                    <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
+                    <p class="section-desc">Technologies I work with to build high-end experiences</p>
+                </div>
+
+                <div class="skills-grid reveal delay-1">
+                    <!-- HTML & CSS -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon" style="color: #E34F26;"><i class="ph-bold ph-layout"></i></div>
+                        <h3 class="skill-name">Modern Architecture</h3>
+                        <p class="skill-desc">Semantic structure with advanced CSS grid layouts, creating pixel-perfect,
+                            scalable interfaces.</p>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon" style="color: #F7DF1E;"><i class="ph-bold ph-file-js"></i></div>
+                        <h3 class="skill-name">Interactive Logic</h3>
+                        <p class="skill-desc">Dynamic state management and seamless async mechanics for powerful,
+                            app-like web experiences.</p>
+                    </div>
+
+                    <!-- UI/UX Design -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon" style="color: #A855F7;"><i class="ph-bold ph-paint-brush"></i></div>
+                        <h3 class="skill-name">Conversion UX</h3>
+                        <p class="skill-desc">Strategic user flows, subtle glassmorphism, and clear visual hierarchy
+                            designed to drive user action.</p>
+                    </div>
+
+                    <!-- Responsive Design -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon" style="color: #3B82F6;"><i class="ph-bold ph-devices"></i></div>
+                        <h3 class="skill-name">Flawless Responsive</h3>
+                        <p class="skill-desc">Adaptive strategies ensuring 100% perfect rendering and usability on any
+                            device size.</p>
+                    </div>
+
+                    <!-- Modern Frameworks -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon" style="color: #EC4899;"><i class="ph-bold ph-lightning"></i></div>
+                        <h3 class="skill-name">High Performance</h3>
+                        <p class="skill-desc">Optimized asset delivery and streamlined code to ensure lightning-fast
+                            loading speeds.</p>
+                    </div>
+
+                    <!-- Version Control -->
+                    <div class="skill-card glass-card">
+                        <div class="skill-icon" style="color: #10B981;"><i class="ph-bold ph-git-branch"></i></div>
+                        <h3 class="skill-name">Version Control</h3>
+                        <p class="skill-desc">Using Git and GitHub for collaborative development and code management.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects section-padding" id="projects">
+                <div class="section-header reveal">
+                    <div class="section-badge"><span class="dot"></span>PROJECTS</div>
+                    <h2 class="section-title">Featured <span class="text-gradient">Work</span></h2>
+                    <p class="section-desc">Real projects, shipped and live</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Pomotime Project -->
+                    <div class="project-card glass-card reveal delay-1">
+                        <div class="project-image-wrapper">
+                            <img src="assets/Pomotime.png" alt="Pomotime Application UI" class="project-image"
+                                onerror="this.src='https://placehold.co/800x500/101018/3b82f6?text=Pomotime'">
+                            <div class="project-image-overlay">
+                                <a href="https://pomotime-kappa.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-primary view-live-btn">View Live <i
+                                        class="ph-bold ph-arrow-up-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="project-tag tag-purple">HTML</span>
+                                <span class="project-tag tag-purple">CSS</span>
+                                <span class="project-tag tag-purple">JavaScript</span>
+                            </div>
+                            <h3 class="project-title">Pomotime</h3>
+                            <p class="project-desc">A modern Pomodoro timer web app with real-time focus sessions,
+                                ambient sounds, and smooth UI animations.</p>
+                            <a href="https://pomotime-kappa.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="project-link">
+                                Visit Project <i class="ph-bold ph-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Coming Soon Project -->
+                    <div class="project-card glass-card coming-soon-card reveal delay-2">
+                        <div class="coming-soon-content">
+                            <div class="coming-soon-icon">🚀</div>
+                            <h3 class="project-title">More Coming Soon</h3>
+                            <p class="project-desc">New projects are in the works. Stay tuned!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section section-padding" id="cta">
+                <div class="cta-container glass-card reveal">
+                    <div class="cta-content">
+                        <div class="badge">Open to work</div>
+                        <h2 class="cta-title">Let's build something <span class="text-gradient">great</span> together.
+                        </h2>
+                        <p class="cta-desc">Have a project in mind? Let's turn your vision into a premium digital
+                            product that performs and converts.</p>
+                        <div class="cta-actions">
+                            <a href="#contact" class="btn btn-primary">Start a Project <i
+                                    class="ph-bold ph-arrow-right"></i></a>
+                            <a href="#projects" class="btn btn-secondary">See Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact section-padding" id="contact">
+                <div class="contact-container glass-card reveal">
+                    <div class="contact-info">
+                        <h2 class="section-title">Let's build together</h2>
+                        <p class="contact-desc">Ready to bring your digital vision to life? Reach out and let's create a
+                            premium experience for your users.</p>
+
+                        <div class="social-links">
+                            <a href="mailto:yahyapcx@gmail.com" class="social-link" aria-label="Email">
+                                <i class="ph-fill ph-envelope-simple"></i>
+                                <span>yahyapcx@gmail.com</span>
+                            </a>
+                            <a href="https://github.com/yazix01" target="_blank" rel="noopener noreferrer"
+                                class="social-link" aria-label="GitHub">
+                                <i class="ph-fill ph-github-logo"></i>
+                                <span>github.com/yazix01</span>
+                            </a>
+                            <a href="https://www.instagram.com/yazixx_dev/" target="_blank" rel="noopener noreferrer"
+                                class="social-link" aria-label="Instagram">
+                                <i class="ph-fill ph-instagram-logo"></i>
+                                <span>@yazixx_dev</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contact-form" action="https://formspree.io/f/mgopwqry"
+                            method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-submit" id="submit-btn"
+                                style="width: 100%;">
+                                <span id="submit-text">Send Message</span> <i class="ph-bold ph-paper-plane-tilt"
+                                    id="submit-icon"></i>
+                            </button>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">YazixX<span class="dot-purple">.</span></div>
+                <p class="footer-text">&copy; 2026 Yahya Ben Khalifa &mdash; Crafted with care.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/yazix01" target="_blank" aria-label="GitHub"><i
+                            class="ph-fill ph-github-logo"></i></a>
+                    <a href="https://www.instagram.com/yazixx_dev/" target="_blank" aria-label="Instagram"><i
+                            class="ph-fill ph-instagram-logo"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
