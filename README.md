@@ -57,9 +57,6 @@ Email: yahyapcx@gmail.com
 GitHub: github.com/yazix01
 Instagram: @yazixx_dev
 
-Name: John Doe
-Email: john@example.com
-
 Message: Tell me about your project...
 
 Send Message
